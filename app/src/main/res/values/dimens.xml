@@ -1,0 +1,27 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="edittextlogin_size">19sp</dimen>
+    <dimen name="horizontal_login">32dp</dimen>
+    <dimen name="dont_have_account">16sp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="edittext_margin_createaccount">10dp</dimen>
+    <dimen name="height_cardview">250dp</dimen>
+    <dimen name="cardview_conner">4dp</dimen>
+    <dimen name="textcard_margin">5dp</dimen>
+    <dimen name="like_margintop_card">10dp</dimen>
+    <dimen name="secondarytext_card">18sp</dimen>
+    <dimen name="bottonbar_heigt">70dp</dimen>
+    <dimen name="appbar_layoutheight">256dp</dimen>
+    <dimen name="username_detail">20sp</dimen>
+    <dimen name="likenumber_detail">15sp</dimen>
+    <dimen name="secondwordDetail">7dp</dimen>
+    <dimen name="height_divider">1dp</dimen>
+    <dimen name="paddingtop_titleimageDetail">40dp</dimen>
+    <dimen name="padding_horizontal_detail">35dp</dimen>
+    <dimen name="textsize_usernameProfile">20dp</dimen>
+    <dimen name="imageprofile_dimenwidth">160dp</dimen>
+    <dimen name="imagen_marginTop">30dp</dimen>
+    <dimen name="imagenProfile_elevation">4dp</dimen>
+    <dimen name="limitY_usernametoolbarprofile">-206dp</dimen>
+    <dimen name="margintopToolbar_circleimageTagetY">-15dp</dimen>
+</resources>

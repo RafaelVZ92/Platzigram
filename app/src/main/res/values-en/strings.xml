@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Platzigram</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="text_button_login">Login</string>
+    <string name="dont_have_account">You do not have an account?,  </string>
+    <string name="create_here">Create here!</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_user">User</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_passwordconfirm">Confirm Password</string>
+    <string name="text_createaccount">Join us!</string>
+    <string name="toolbar_createaccount">Create account</string>
+    <string name="home">Home</string>
+    <string name="profile">Yo</string>
+</resources>
