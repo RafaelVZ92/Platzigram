@@ -51,15 +51,16 @@
                     android:text="I am Amornchai, Mobile Application Developer living in Tokyo, Japan "/>
 
             </LinearLayout>
-        </com.google.android.material.appbar.CollapsingToolbarLayout>
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:layout_collapseMode="pin"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
 
 
 
@@ -78,11 +79,32 @@
         app:dependType="y"
         app:dependTargetY="@dimen/limitY_usernametoolbarprofile"
         app:targetX="16dp"
-        app:targetY="3dp"
-        app:targetWidth="50dp"
-        app:targetHeight="50dp"
+        app:targetY="9dp"
+        app:targetWidth="40dp"
+        app:targetHeight="40dp"
         app:targetAlpha="1"
         />
+
+    <TextView
+        android:id="@+id/username_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_username_card"
+        android:textSize="@dimen/toolbarusername_size"
+        android:elevation="@dimen/imagenProfile_elevation"
+        android:layout_marginLeft="@dimen/textmargin_toolbar"
+        android:layout_marginTop="@dimen/textmargintop_toolbar"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:alpha="0"
+        app:layout_behavior="com.zoonref.SimpleViewBehavior"
+        app:dependsOn="@+id/appBarProfile"
+        app:dependType="y"
+        app:dependTargetY="@dimen/limitY_usernametargetY_profile"
+        app:targetY="16dp"
+        app:targetAlpha="1"
+        />
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

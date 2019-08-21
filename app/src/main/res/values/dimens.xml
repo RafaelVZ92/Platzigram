@@ -24,4 +24,8 @@
     <dimen name="imagenProfile_elevation">4dp</dimen>
     <dimen name="limitY_usernametoolbarprofile">-206dp</dimen>
     <dimen name="margintopToolbar_circleimageTagetY">-15dp</dimen>
+    <dimen name="textmargin_toolbar">65dp</dimen>
+    <dimen name="textmargintop_toolbar">-100dp</dimen>
+    <dimen name="limitY_usernametargetY_profile">-250dp</dimen>
+    <dimen name="toolbarusername_size">20sp</dimen>
 </resources>
